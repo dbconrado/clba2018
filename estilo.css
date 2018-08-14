@@ -1,8 +1,28 @@
-.corpo {
+#chamada p.collapse:not(.show) {
+	height: 42px !important;
+	overflow: hidden;
+	display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+#chamada p.collapsing {
+	min-height: 42px !important;
+}
+
+#chamada a.collapsed:after  {
+    content: '+ Leia mais';
+}
+
+#chamada a:not(.collapsed):after {
+    content: '- Leia menos';
+}
+
+/*.corpo {
 	width: 931px;
 	margin:0 auto 0 auto; background:#DDD;
 }
-/*#Topo {
+#Topo {
 	height: 140px;
 	width: 931px;
 }
@@ -24,10 +44,6 @@
 	width: 930px;
 }*/
 
-.quase-transparente {
-	opacity: 0.8;
-}
-
 #inscreva {
 	height: 60px;
 	width: 931px;
@@ -47,11 +63,6 @@
 	float: left;
 	margin: 29px 0 0 0;
 }*/
-
-.conceicao {
-	background-image: url('img/conceicao-evaristo2.jpg');
-	background-size: 100% 100%;
-}
 
 #atividade1 {
 	height: 200px;
