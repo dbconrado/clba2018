@@ -1,4 +1,4 @@
-#chamada p.collapse:not(.show) {
+.chamada p.collapse:not(.show) {
 	height: 42px !important;
 	overflow: hidden;
 	display: -webkit-box;
@@ -6,15 +6,15 @@
   -webkit-box-orient: vertical;
 }
 
-#chamada p.collapsing {
+.chamada p.collapsing {
 	min-height: 42px !important;
 }
 
-#chamada a.collapsed:after  {
+.chamada a.collapsed:after  {
     content: '+ Leia mais';
 }
 
-#chamada a:not(.collapsed):after {
+.chamada a:not(.collapsed):after {
     content: '- Leia menos';
 }
 
