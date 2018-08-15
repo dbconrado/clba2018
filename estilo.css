@@ -18,6 +18,17 @@
     content: '- Leia menos';
 }
 
+.sabara {
+	background-image: url('img/sabara.jpg');
+}
+
+.bg-image-full {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: scroll;
+	background-size: cover;
+}
+
 /*.corpo {
 	width: 931px;
 	margin:0 auto 0 auto; background:#DDD;
