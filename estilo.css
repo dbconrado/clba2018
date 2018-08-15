@@ -1,4 +1,4 @@
-.chamada p.collapse:not(.show) {
+.chamada .collapse:not(.show) {
 	height: 42px !important;
 	overflow: hidden;
 	display: -webkit-box;
@@ -6,20 +6,20 @@
   -webkit-box-orient: vertical;
 }
 
-.chamada p.collapsing {
+.chamada .collapsing {
 	min-height: 42px !important;
 }
 
 .chamada a.collapsed:after  {
-    content: '+ Leia mais';
+    content: '+ Mais';
 }
 
 .chamada a:not(.collapsed):after {
-    content: '- Leia menos';
+    content: '- Menos';
 }
 
 .sabara {
-	background-image: url('img/sabara.jpg');
+	background-image: url('img/sabara2.jpg');
 }
 
 .bg-image-full {
