@@ -10,11 +10,11 @@
 	min-height: 42px !important;
 }
 
-.chamada a.collapsed:after  {
+.chamada > a.collapsed:after  {
     content: '+ Mais';
 }
 
-.chamada a:not(.collapsed):after {
+.chamada > a:not(.collapsed):after {
     content: '- Menos';
 }
 
